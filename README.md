@@ -1,2 +1,28 @@
-# In-Memory-Key-Value-Database
-Built an in-memory key-value database in C++ supporting SET, GET, DELETE, and EXISTS operations with O(1) average time complexity using unordered_map.
+# In-Memory Key-Value Database
+
+## Overview
+A C++ console-based in-memory key-value database similar to Redis.
+
+## Features
+- SET key-value pairs
+- GET value by key
+- DELETE key
+- EXISTS check
+- Display all entries
+
+## Time Complexity
+All operations run in O(1) average time using unordered_map.
+
+## Tech Stack
+- C++
+- Hashing (unordered_map)
+- OOP
+- Command-based interface
+
+## How to Run
+
+Compile:
+g++ main.cpp Database.cpp -o database
+
+Run:
+./database
